@@ -26,10 +26,7 @@ valid_batch_size = 100
 
 ## Load the data
 
-train_data_path = "data/cifar-10-python/cifar-10-batches-py"
-valid_data_path = "data/cifar-10-python/cifar-10-batches-py/test_batch"
-
-train_dataset, valid_dataset = create_data(train_data_path, valid_data_path)
+train_dataset, valid_dataset = create_data()
 train_dataset = augment_train_set(train_dataset, valid_dataset)
 
 train_loader = DataLoader(train_dataset, batch_size=train_batch_size, shuffle=True)

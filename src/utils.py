@@ -9,7 +9,7 @@ def augment_train_set(train_dataset: torch.utils.data.Dataset, valid_dataset: to
     random_indices = np.random.choice(len(valid_dataset), 5000, replace=False)
     random_valid_set = torch.utils.data.Subset(valid_dataset, random_indices)
 
-    train_dataset = np.concatenate((train_dataset, random_valid_set), axis=0)
+    train_dataset = torch.utils.data.ConcatDataset([train_dataset, random_valid_set])
 
     return train_dataset
 
