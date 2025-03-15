@@ -1,3 +1,4 @@
+import os
 from tqdm import tqdm
 import copy
 import torch
@@ -9,6 +10,15 @@ import matplotlib.pyplot as plt
 from data import create_data
 from arch import WideResNet, ResidualBlock
 from utils import mixup_data, mixup_criterion, CESmoothingLoss, augment_train_set
+
+if not os.path.exists("plots"):
+    os.makedirs("plots")
+
+if not os.path.exists("results"):
+    os.makedirs("results")
+
+if not os.path.exists("models"):
+    os.makedirs("models")
 
 ## Device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -25,7 +35,6 @@ train_batch_size = 128
 valid_batch_size = 100
 
 ## Load the data
-
 train_dataset, valid_dataset = create_data()
 train_dataset = augment_train_set(train_dataset, valid_dataset)
 
