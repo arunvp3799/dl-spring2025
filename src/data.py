@@ -1,11 +1,7 @@
-import os
-import torch
 import torchvision
 from torchvision import transforms
 from torchvision.transforms import AutoAugmentPolicy
-import pickle
-import numpy as np
-import datasets
+
 
 ## Create Custom Dataset Class
 
