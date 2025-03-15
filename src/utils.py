@@ -45,6 +45,6 @@ class CESmoothingLoss(nn.Module):
         with torch.no_grad():
             weight = pred.new_ones(pred.size()) * (self.smoothing / (pred.size(-1) - 1.))
             weight.scatter_(-1, target.unsqueeze(-1), (1. - self.smoothing))
-            loss = (-weight * log_prob).sum(dim=-1).mean()
+        loss = (-weight * log_prob).sum(dim=-1).mean()
         return loss
 
