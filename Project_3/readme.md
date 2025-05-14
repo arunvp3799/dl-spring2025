@@ -79,6 +79,10 @@ Run PGD attack on ResNet34:
 sh run_attacks.sh pgd resnet34
 ```
 
+```
+The Notebook is also present in src folder
+```
+
 ## Understanding the Attacks
 
 Each attack represents a different adversarial technique:
