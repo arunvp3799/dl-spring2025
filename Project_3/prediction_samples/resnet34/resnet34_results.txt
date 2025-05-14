@@ -1,0 +1,4 @@
+Model: resnet34
+Total samples: 500
+Top-1 Accuracy: 76.20%
+Top-5 Accuracy: 94.20%

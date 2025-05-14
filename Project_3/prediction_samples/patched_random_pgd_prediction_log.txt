@@ -1,0 +1,36 @@
+Sample Predictions Log
+=====================
+
+Sample 1:
+  True Label ID: 494 (chime)
+  Original Image:
+    Top-1 ID: 494 (chime)
+    Top-5 IDs with Labels: ['494: chime', '451: bolo tie', '784: Unknown', "477: carpenter's kit", '764: Unknown']
+  Perturbed Image:
+    Top-1 ID: 764 (Unknown)
+    Top-5 IDs with Labels: ['764: Unknown', '413: assault rifle', '456: bow', '758: Unknown', '777: Unknown']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 472 (canoe)
+  Original Image:
+    Top-1 ID: 472 (canoe)
+    Top-5 IDs with Labels: ['472: canoe', '449: boathouse', '736: Unknown', '975: Unknown', '914: Unknown']
+  Perturbed Image:
+    Top-1 ID: 706 (Unknown)
+    Top-5 IDs with Labels: ['706: Unknown', '660: Unknown', '449: boathouse', '807: Unknown', '915: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 423 (barber chair)
+  Original Image:
+    Top-1 ID: 423 (barber chair)
+    Top-5 IDs with Labels: ['423: barber chair', '424: barbershop', '739: Unknown', '747: Unknown', '765: Unknown']
+  Perturbed Image:
+    Top-1 ID: 424 (barbershop)
+    Top-5 IDs with Labels: ['424: barbershop', '423: barber chair', '739: Unknown', '762: Unknown', '678: Unknown']
+
+--------------------------------------------------
+

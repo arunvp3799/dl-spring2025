@@ -1,0 +1,33 @@
+Random Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label ID: 451 (bolo tie)
+  Perturbed Image Prediction ID: 487 (cellular telephone)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 455 (bottlecap)
+  Perturbed Image Prediction ID: 633 (Unknown)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 430 (basketball)
+  Perturbed Image Prediction ID: 752 (Unknown)
+
+--------------------------------------------------
+
+Sample 4:
+  True Label ID: 459 (brassiere)
+  Perturbed Image Prediction ID: 608 (Unknown)
+
+--------------------------------------------------
+
+Sample 5:
+  True Label ID: 431 (bassinet)
+  Perturbed Image Prediction ID: 516 (Unknown)
+
+--------------------------------------------------
+

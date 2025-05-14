@@ -1,0 +1,36 @@
+resnet34 FGSM Attack Sample Predictions Log
+=============================================
+
+Sample 1:
+  True Label ID: 480 (cash machine)
+  Original Image:
+    Top-1 ID: 480 (cash machine)
+    Top-5 IDs with Labels: ['480: cash machine', '886: Unknown', '707: Unknown', '571: Unknown', '860: Unknown']
+  Perturbed Image:
+    Top-1 ID: 707 (Unknown)
+    Top-5 IDs with Labels: ['707: Unknown', '886: Unknown', '480: cash machine', '424: barbershop', '571: Unknown']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 434 (bath towel)
+  Original Image:
+    Top-1 ID: 434 (bath towel)
+    Top-5 IDs with Labels: ['434: bath towel', '591: Unknown', '840: Unknown', '748: Unknown', '411: apron']
+  Perturbed Image:
+    Top-1 ID: 591 (Unknown)
+    Top-5 IDs with Labels: ['591: Unknown', '868: Unknown', '692: Unknown', '549: Unknown', '446: binder']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 493 (chiffonier)
+  Original Image:
+    Top-1 ID: 493 (chiffonier)
+    Top-5 IDs with Labels: ['493: chiffonier', '495: china cabinet', '553: Unknown', '894: Unknown', '526: Unknown']
+  Perturbed Image:
+    Top-1 ID: 495 (china cabinet)
+    Top-5 IDs with Labels: ['495: china cabinet', '453: bookcase', '548: Unknown', '553: Unknown', '493: chiffonier']
+
+--------------------------------------------------
+

@@ -1,0 +1,21 @@
+Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label: 405 (airship)
+  Prediction on Perturbed Image: 404 (airliner)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label: 458 (brass)
+  Prediction on Perturbed Image: 852 (Unknown)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label: 419 (Band Aid)
+  Prediction on Perturbed Image: 692 (Unknown)
+
+--------------------------------------------------
+

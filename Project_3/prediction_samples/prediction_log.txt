@@ -1,0 +1,36 @@
+Sample Predictions Log
+=====================
+
+Sample 1:
+  True Label ID: 489 (chainlink fence)
+  Original Image:
+    Top-1 ID: 489 (chainlink fence)
+    Top-5 IDs with Labels: ['489: chainlink fence', '695: Unknown', '455: bottlecap', '746: Unknown', '539: Unknown']
+  Perturbed Image:
+    Top-1 ID: 455 (bottlecap)
+    Top-5 IDs with Labels: ['455: bottlecap', '852: Unknown', '489: chainlink fence', '714: Unknown', '746: Unknown']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 411 (apron)
+  Original Image:
+    Top-1 ID: 411 (apron)
+    Top-5 IDs with Labels: ['411: apron', '610: Unknown', '546: Unknown', '465: bulletproof vest', '636: Unknown']
+  Perturbed Image:
+    Top-1 ID: 546 (Unknown)
+    Top-5 IDs with Labels: ['546: Unknown', '696: Unknown', '409: analog clock', '784: Unknown', '892: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 443 (bib)
+  Original Image:
+    Top-1 ID: 443 (bib)
+    Top-5 IDs with Labels: ['443: bib', '735: Unknown', '893: Unknown', '474: cardigan', '636: Unknown']
+  Perturbed Image:
+    Top-1 ID: 481 (cassette)
+    Top-5 IDs with Labels: ['481: cassette', '893: Unknown', '848: Unknown', '684: Unknown', '474: cardigan']
+
+--------------------------------------------------
+

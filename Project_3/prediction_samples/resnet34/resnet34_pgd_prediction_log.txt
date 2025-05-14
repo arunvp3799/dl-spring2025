@@ -1,0 +1,36 @@
+resnet34 Sample Predictions Log
+=====================
+
+Sample 1:
+  True Label ID: 437 (beacon)
+  Original Image:
+    Top-1 ID: 437 (beacon)
+    Top-5 IDs with Labels: ['437: beacon', '900: Unknown', '657: Unknown', '744: Unknown', '442: bell cote']
+  Perturbed Image:
+    Top-1 ID: 701 (Unknown)
+    Top-5 IDs with Labels: ['701: Unknown', '417: balloon', '64: Unknown', '325: Unknown', '405: airship']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 485 (CD player)
+  Original Image:
+    Top-1 ID: 485 (CD player)
+    Top-5 IDs with Labels: ['485: CD player', '487: cellular telephone', '622: Unknown', '592: Unknown', '761: Unknown']
+  Perturbed Image:
+    Top-1 ID: 723 (Unknown)
+    Top-5 IDs with Labels: ['723: Unknown', '714: Unknown', '419: Band Aid', '584: Unknown', '549: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 476 (carousel)
+  Original Image:
+    Top-1 ID: 476 (carousel)
+    Top-5 IDs with Labels: ['476: carousel', '762: Unknown', '788: Unknown', '822: Unknown', '51: Unknown']
+  Perturbed Image:
+    Top-1 ID: 971 (Unknown)
+    Top-5 IDs with Labels: ['971: Unknown', '562: Unknown', '818: Unknown', '819: Unknown', '862: Unknown']
+
+--------------------------------------------------
+

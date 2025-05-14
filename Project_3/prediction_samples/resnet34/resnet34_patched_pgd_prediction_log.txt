@@ -1,0 +1,21 @@
+resnet34 Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label: 406 (altar)
+  Prediction on Perturbed Image: 663 (Unknown)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label: 481 (cassette)
+  Prediction on Perturbed Image: 710 (Unknown)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label: 408 (amphibian)
+  Prediction on Perturbed Image: 847 (Unknown)
+
+--------------------------------------------------
+

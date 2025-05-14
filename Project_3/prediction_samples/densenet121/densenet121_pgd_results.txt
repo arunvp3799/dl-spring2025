@@ -1,0 +1,4 @@
+Model: densenet121
+Total samples: 500
+Top-1 Accuracy: 1.40%
+Top-5 Accuracy: 11.80%

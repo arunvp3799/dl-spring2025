@@ -1,0 +1,33 @@
+resnet34 Random Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label ID: 496 (Christmas stocking)
+  Perturbed Image Prediction ID: 474 (cardigan)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 423 (barber chair)
+  Perturbed Image Prediction ID: 424 (barbershop)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 446 (binder)
+  Perturbed Image Prediction ID: 398 (Unknown)
+
+--------------------------------------------------
+
+Sample 4:
+  True Label ID: 427 (barrel)
+  Perturbed Image Prediction ID: 686 (Unknown)
+
+--------------------------------------------------
+
+Sample 5:
+  True Label ID: 444 (bicycle-built-for-two)
+  Perturbed Image Prediction ID: 671 (Unknown)
+
+--------------------------------------------------
+

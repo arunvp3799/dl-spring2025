@@ -1,0 +1,36 @@
+Sample Predictions Log
+=====================
+
+Sample 1:
+  True Label ID: 453 (bookcase)
+  Original Image:
+    Top-1 ID: 453 (bookcase)
+    Top-5 IDs with Labels: ['453: bookcase', '548: Unknown', '495: china cabinet', '799: Unknown', '648: Unknown']
+  Perturbed Image:
+    Top-1 ID: 548 (Unknown)
+    Top-5 IDs with Labels: ['548: Unknown', '598: Unknown', '851: Unknown', '651: Unknown', '632: Unknown']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 405 (airship)
+  Original Image:
+    Top-1 ID: 405 (airship)
+    Top-5 IDs with Labels: ['405: airship', '895: Unknown', '417: balloon', '701: Unknown', '908: Unknown']
+  Perturbed Image:
+    Top-1 ID: 902 (Unknown)
+    Top-5 IDs with Labels: ['902: Unknown', '626: Unknown', '629: Unknown', '635: Unknown', '589: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 440 (beer bottle)
+  Original Image:
+    Top-1 ID: 441 (beer glass)
+    Top-5 IDs with Labels: ['441: beer glass', '572: Unknown', '440: beer bottle', '966: Unknown', '967: Unknown']
+  Perturbed Image:
+    Top-1 ID: 441 (beer glass)
+    Top-5 IDs with Labels: ['441: beer glass', '572: Unknown', '503: Unknown', '440: beer bottle', '967: Unknown']
+
+--------------------------------------------------
+

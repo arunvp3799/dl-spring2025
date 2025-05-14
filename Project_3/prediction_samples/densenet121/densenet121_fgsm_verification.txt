@@ -1,0 +1,5 @@
+Model: densenet121
+Epsilon: 0.02
+Total samples checked: 500
+Valid perturbations: 500
+Percentage valid: 100.00%

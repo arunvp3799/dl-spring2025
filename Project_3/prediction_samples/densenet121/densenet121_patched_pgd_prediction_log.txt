@@ -1,0 +1,21 @@
+densenet121 Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label: 451 (bolo tie)
+  Prediction on Perturbed Image: 451 (bolo tie)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label: 427 (barrel)
+  Prediction on Perturbed Image: 756 (Unknown)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label: 439 (bearskin)
+  Prediction on Perturbed Image: 439 (bearskin)
+
+--------------------------------------------------
+

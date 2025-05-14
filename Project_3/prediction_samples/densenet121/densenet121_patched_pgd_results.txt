@@ -1,0 +1,5 @@
+Model: densenet121
+Total samples: 500
+Top-1 Accuracy: 9.20%
+Top-5 Accuracy: 45.00%
+Attack parameters: epsilon=0.5, alpha=0.05, iterations=500

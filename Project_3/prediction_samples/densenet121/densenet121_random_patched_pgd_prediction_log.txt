@@ -1,0 +1,33 @@
+densenet121 Random Patched PGD Attack Results
+==================================================
+
+Sample 1:
+  True Label ID: 457 (bow tie)
+  Perturbed Image Prediction ID: 906 (Unknown)
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 464 (buckle)
+  Perturbed Image Prediction ID: 604 (Unknown)
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 492 (chest)
+  Perturbed Image Prediction ID: 860 (Unknown)
+
+--------------------------------------------------
+
+Sample 4:
+  True Label ID: 427 (barrel)
+  Perturbed Image Prediction ID: 883 (Unknown)
+
+--------------------------------------------------
+
+Sample 5:
+  True Label ID: 466 (bullet train)
+  Perturbed Image Prediction ID: 511 (Unknown)
+
+--------------------------------------------------
+

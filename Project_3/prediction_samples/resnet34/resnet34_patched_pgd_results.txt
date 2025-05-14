@@ -1,0 +1,5 @@
+Model: resnet34
+Total samples: 500
+Top-1 Accuracy: 7.20%
+Top-5 Accuracy: 43.80%
+Attack parameters: epsilon=0.5, alpha=0.05, iterations=500

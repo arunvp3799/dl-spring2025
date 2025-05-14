@@ -1,0 +1,36 @@
+densenet121 FGSM Attack Sample Predictions Log
+=============================================
+
+Sample 1:
+  True Label ID: 458 (brass)
+  Original Image:
+    Top-1 ID: 458 (brass)
+    Top-5 IDs with Labels: ['458: brass', '703: Unknown', '764: Unknown', '637: Unknown', '708: Unknown']
+  Perturbed Image:
+    Top-1 ID: 703 (Unknown)
+    Top-5 IDs with Labels: ['703: Unknown', '637: Unknown', '736: Unknown', '764: Unknown', '458: brass']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 402 (acoustic guitar)
+  Original Image:
+    Top-1 ID: 402 (acoustic guitar)
+    Top-5 IDs with Labels: ['402: acoustic guitar', '546: Unknown', '420: banjo', '774: Unknown', '902: Unknown']
+  Perturbed Image:
+    Top-1 ID: 546 (Unknown)
+    Top-5 IDs with Labels: ['546: Unknown', '402: acoustic guitar', '420: banjo', '784: Unknown', '819: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 449 (boathouse)
+  Original Image:
+    Top-1 ID: 660 (Unknown)
+    Top-5 IDs with Labels: ['660: Unknown', '706: Unknown', '449: boathouse', '762: Unknown', '975: Unknown']
+  Perturbed Image:
+    Top-1 ID: 660 (Unknown)
+    Top-5 IDs with Labels: ['660: Unknown', '757: Unknown', '706: Unknown', '799: Unknown', '705: Unknown']
+
+--------------------------------------------------
+

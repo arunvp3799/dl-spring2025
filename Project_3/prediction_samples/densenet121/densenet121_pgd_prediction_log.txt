@@ -1,0 +1,36 @@
+densenet121 Sample Predictions Log
+=====================
+
+Sample 1:
+  True Label ID: 414 (backpack)
+  Original Image:
+    Top-1 ID: 414 (backpack)
+    Top-5 IDs with Labels: ['414: backpack', '711: Unknown', '588: Unknown', '636: Unknown', '747: Unknown']
+  Perturbed Image:
+    Top-1 ID: 592 (Unknown)
+    Top-5 IDs with Labels: ['592: Unknown', '583: Unknown', '747: Unknown', '745: Unknown', '844: Unknown']
+
+--------------------------------------------------
+
+Sample 2:
+  True Label ID: 455 (bottlecap)
+  Original Image:
+    Top-1 ID: 455 (bottlecap)
+    Top-5 IDs with Labels: ['455: bottlecap', '635: Unknown', '737: Unknown', '746: Unknown', '507: Unknown']
+  Perturbed Image:
+    Top-1 ID: 746 (Unknown)
+    Top-5 IDs with Labels: ['746: Unknown', '455: bottlecap', '551: Unknown', '921: Unknown', '635: Unknown']
+
+--------------------------------------------------
+
+Sample 3:
+  True Label ID: 418 (ballpoint)
+  Original Image:
+    Top-1 ID: 767 (Unknown)
+    Top-5 IDs with Labels: ['767: Unknown', '432: bassoon', '696: Unknown', '418: ballpoint', '845: Unknown']
+  Perturbed Image:
+    Top-1 ID: 707 (Unknown)
+    Top-5 IDs with Labels: ['707: Unknown', '761: Unknown', '487: cellular telephone', '886: Unknown', '499: cleaver']
+
+--------------------------------------------------
+
